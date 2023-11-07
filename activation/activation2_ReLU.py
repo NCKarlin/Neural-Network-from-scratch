@@ -1,6 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
 '''
 Video 5 in Playlist:
 https://www.youtube.com/watch?v=gmjzbpSVY1A&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=5&ab_channel=sentdex
@@ -21,12 +18,15 @@ visualisation and you can see the bare points, and the class-color-coded ones
 
 3. SINGLE LAYER PASS WITH ACTIVATION
 -> In this example we go back to a simpler example, just passing one single layer with
-an additional activation layer behiNd the neuron outputs
+an additional activation layer behid the neuron outputs
 -> Interestingly, one can see, that for the layer creation the dimensions go from 2 to 5,
 meaning the input amount of features (2) will be expanded to 5 features per point.
 -> Therefore, the output of this layer should have the following dimensions:
 [points*classes x 5]
 '''
+# IMPORTS
+import numpy as np #for basic aithmetic operations
+import matplotlib.pyplot as plt #for visualization
 
 # Seeding for reproducable randomization
 np.random.seed(0)

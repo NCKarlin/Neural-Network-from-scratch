@@ -1,5 +1,3 @@
-import numpy as np
-
 '''
 Video 3 in Playlist: 
 https://www.youtube.com/watch?v=tMrbN67U9d4&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=3&ab_channel=sentdex
@@ -14,7 +12,8 @@ The dot-product function performs exactly the operation we want to undertake for
 weights and the inputs, as it element-wise will multiply and then add the result of
 those multiplications together to create a scalar (single) value.
 '''
-
+# IMPORTS
+import numpy as np #for basic arithmetic operations
 
 # Inputs from the neurons of the previous layer
 inputs = [1, 2, 3, 2.5]

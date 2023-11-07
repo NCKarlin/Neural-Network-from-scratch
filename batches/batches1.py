@@ -1,5 +1,3 @@
-import numpy as np
-
 '''
 Video 4 in Playlist:
 https://www.youtube.com/watch?v=TEWy9vZcxW4&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=6&ab_channel=sentdex
@@ -22,6 +20,8 @@ output.
 
 #! Only numpy arrays can be transposed, NO lists -> conversion to np.array(...)
 '''
+# IMPORTS
+import numpy as np #for basic airthmetic operations
 
 # Inputs from previous layer of the batch (N=3)
 inputs = [[1.0, 2.0, 3.0, 2.5],

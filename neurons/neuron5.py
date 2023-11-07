@@ -1,5 +1,3 @@
-import numpy as np
-
 '''
 Video 3 in Playlist: 
 https://www.youtube.com/watch?v=tMrbN67U9d4&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=3&ab_channel=sentdex
@@ -20,6 +18,8 @@ are multiplied accordingly for every neuron, by using the dot-product on the inp
 instead of looping through. 
 !!!
 '''
+# IMPORTS
+import numpy as np #for basic arithmetic operations
 
 # Inputs from the neurons of the previous layer
 inputs = [1, 2, 3, 2.5]

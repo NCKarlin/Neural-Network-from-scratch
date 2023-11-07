@@ -1,5 +1,3 @@
-import numpy as np
-
 '''
 Video 4 in Playlist:
 https://www.youtube.com/watch?v=TEWy9vZcxW4&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=6&ab_channel=sentdex
@@ -27,6 +25,8 @@ a21 a22 a23 a24  x  b21 b22 b23  =  [(a21*b11)+(a22*b21)+(a23*b31)+(a24*b41)]  [
 a31 a32 a33 a34     b31 b32 b33     [(a31*b11)+(a32*b21)+(a33*b31)+(a34*b41)]  [(a31*b12)+(a32*b22)+(a33*b32)+(a34*b42)]  [(a31*b13)+(a32*b23)+(a33*b33)+(a34*b43)]
                     b41 b42 b43
 '''
+# IMPORTS
+import numpy as np #for basic arithmetic operations
 
 # Seeding for reproducable randomization
 np.random.seed(0)
