@@ -38,8 +38,7 @@ function and additional function named forward. In that function the following h
     2.3 Negative log of true target class prediction values for loss calculation
     2.4 Returning batch categorical cross entropy loss values 
 All of this is integrated after the network setup, as in the script 
-activation6_Softmax.py. 
-
+activation6_Softmax.py.
 '''
 
 # IMPORTS
