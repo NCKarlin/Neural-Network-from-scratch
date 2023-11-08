@@ -1,6 +1,11 @@
 '''
+SINGLE LAYER PASS WITH ReLU ACTIVATION
+
 Video 5 in Playlist:
 https://www.youtube.com/watch?v=gmjzbpSVY1A&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=5&ab_channel=sentdex
+
+THEORY
+
 
 This file contains a little more information to go through or to be explained.
 
@@ -25,7 +30,7 @@ meaning the input amount of features (2) will be expanded to 5 features per poin
 [points*classes x 5]
 '''
 # IMPORTS
-import numpy as np #for basic aithmetic operations
+import numpy as np #for basic arithmetic operations
 import matplotlib.pyplot as plt #for visualization
 
 # Seeding for reproducable randomization
