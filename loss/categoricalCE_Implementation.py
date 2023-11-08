@@ -1,5 +1,5 @@
 '''
-TITLE
+CATEGORICAL LOSS IMPLEMENTATION FOR SIMPLE DENSE NEURAL NETWORK
 
 Video 8 in Playlist:
 https://www.youtube.com/watch?v=levekYbxauw&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=8&ab_channel=sentdex
