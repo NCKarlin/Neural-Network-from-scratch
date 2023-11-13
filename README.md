@@ -27,15 +27,17 @@ In order to make this as pleasant and accessible as possible, I will shortly exp
 To follow the order of the tutorial I would suggest to look into the folder and their respective scripts in the following order:
 1. **neurons:**<br>
 In this folder you will find all scripts that are concerned with the detailed operations of a single neuron (inputs, weights and biases), up until multiple neurons within a layer. <br>
+<br>
 2. **batches:**<br>
 In this folder you will find the two scripts concerned with layers of neurons within a network. Firstly, just a batch of inputs for a single layer of multiple neurons and secondly the same detailed operation for a two-layered network with 3 neurons in each layer.
-3. **layers:**<br>
+<br>
+4. **layers:**<br>
 In this folder you will find the script that showcases the dynamic layer creation for a neural network with a self-defined layer class, which showcases the most important functions and attributes for a (generic) neural network layer of neurons. 
-4. **activation:**<br>
+5. **activation:**<br>
 In this folder you will find multiple scripts concerning the activation function, which handels the output of each neuron before passing it on. In this repository the two most common activation functions are walked-through, the **ReLU-activation** for all layers but the output layer, and the **Softmax-activation**, which is mostly used in the output layer of classification networks.
-5. **loss:**<br>
+6. **loss:**<br>
 In this folder you will find two scripts, which are aimed at showcasing the detailed functionality of the categorical cross-entropy loss, which is the most common loss function for multi-class classification problems. Firstly, the walk-through (loss_categoricalCE.py) and then secondly, the implementation within the simple two-layer network we have designed until then.
-6. **visualisations:**<br>
+7. **visualisations:**<br>
 This folder merely contains a simple visualisation for the determination of the derivative of a quadratic function. These mechanics are applied on a vastly different scale for neural networks, but because of the high dimensionality it is impossible to visualize these properly for understanding, hence the 2D example. In real neural networks, this is done with partial derivatives of an intensely multidimensional function, as it is dependent on all the weights and biases within a neural network.
 
 ## Script Organization
