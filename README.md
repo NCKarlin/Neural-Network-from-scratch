@@ -3,6 +3,8 @@ This repository was instantiated to create a neural network (almost) from scratc
 While it does not walk through the entire cycle of a neural network - the backpropagation is not treated in detail, therefore it stops after the loss determination - it does a good job at explaining the mechanics and mathematical operations that happen within neurons, layers and also when taking batched input into account. <br>
 Below you will find the source for this repository, a walk-through of the repository structure and a short disclaimer on the scturcture of the scripts within this repository.
 
+![](https://github.com/NCKarlin/Neural-Network-from-scratch/blob/main/NN-from-scratch/files/Basic_NN_viz.gif)
+
 ## Disclaimer: Source
 All of the code and comments are mainly based on the video tutorial series ["Neural Networks from Scratch"](https://www.youtube.com/watch?v=Wo5dMEP_BbI&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&ab_channel=sentdex), which in turn is based on the book ["Neural Networks from Scratch in Python – Building neural networks in raw Python"](https://nnfs.io/) by Harrison Kinsley and Daniel Kukiela. <br>
 I highly recommend this tutorial to anyone who has some basic knowledge about neural networks, but really wants to drill down into the specific mechanics to better understand how to optimise and work with neural networks.
