@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=levekYbxauw&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius
 THEORY
 There is not too much added theory in this script as it is mostly about how to integrate
 the previously mentioned categorical cross-entropy loss into the neural network frame-
-work. One theoretical addition is the clipping of the softmaxed network output 
+work. One theoretical addition is the clipping of the softmaxed network output
 (class prediction probabilities), before calculating the loss.
 
 #! Why prediction probability clippping (softmaxed network output)?

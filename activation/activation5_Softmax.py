@@ -10,7 +10,7 @@ There was no new theory added, besides some functionality theory of numpy operat
 THIS SCRIPT
 This script contains the small piece of code, which again displays the same functionality
 as activation3/4-Softmax.py, this time demonstrating the workings for layer outputs in
-batches.  
+batches. 
 '''
 #IMPORTS
 import numpy as np #for basic airhmetic operations

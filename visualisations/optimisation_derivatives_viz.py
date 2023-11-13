@@ -10,7 +10,7 @@ basic workings of derivatives on functions, as this is the main part of the opti
 in a neural network during or more for the backpropagation. 
 Generally, in a neural networks the tweaking of the weights and biases on the neurons
 is an action of which one would like to know the impact onto the ultimate loss of the
-respective model value constellation. Therefore, the derivative is ideal to give 
+respective model value constellation. Therefore, the derivative is ideal to give
 information on how the function is going to change at that point depending on where and 
 how you move the values for the weights and biases.
 Hence, by asbtracting a bit more and the utilization of the chain rule, this does not

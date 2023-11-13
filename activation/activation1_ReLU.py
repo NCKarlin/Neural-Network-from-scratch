@@ -13,7 +13,7 @@ The beauty of the ReLU activation function is that in series of several neurons,
 manipulating the weights and biases with the help of the serial truncation, the network
 can learn how to set the weights and biases, so that for certain value ranges in each
 of the neurons, the activation pattern across all neurons differs and therefore, the 
-network can recognize certain input value patterns, which trigger the respective 
+network can recognize certain input value patterns, which trigger the respective
 activation and ideally mostly unique pattern. 
 
 THIS SCRIPT

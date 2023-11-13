@@ -22,7 +22,7 @@ Here it is important to consider the order/ sequence of the inputs, as the first
 element of the input will determine the way of indexing and performing the dot-product.
 By leading with the weights (as these are individual for every neuron), while the inputs
 in a fully connected network are the same for all neurons, the weights and the inputs
-are multiplied accordingly for every neuron, by using the dot-product on the inputs 
+are multiplied accordingly for every neuron, by using the dot-product on the inputs
 instead of looping through. 
 #!
 '''

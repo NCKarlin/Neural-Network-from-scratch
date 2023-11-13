@@ -17,7 +17,7 @@ THIS SCRIPT
 This file contains the small piece of code, which essentially does the same operation as 
 in neuron1.py, where we are just looking at the output of a single neuron within a layer.
 But again, instead of manually creating the output calculation, this time the built-in 
-dot-product function of numpy is used. 
+dot-product function of numpy is used.
 The dot-product function performs exactly the operation we want to undertake for the 
 weights and the inputs, as it element-wise will multiply and then add the result of
 those multiplications together to create a scalar (single) value.

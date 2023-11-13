@@ -28,7 +28,7 @@ Secondly, this intermediate output is fed into the second layer, which consists 
 neurons with 3 weights for the respective layer 1 outputs.
 
 The dot-product of the intermediate results with the corresponding weights and biases
-of layer 2 then create the final output of the second layer. 
+of layer 2 then create the final output of the second layer.
 '''
 # IMPORTS
 import numpy as np #for basic arithmetic operations

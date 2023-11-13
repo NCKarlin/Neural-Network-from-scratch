@@ -37,7 +37,7 @@ we multiply the result by -1 and convert to the positive range.
 The closer the values of the predictions are to 1, the closer the logaritm of them will
 be to 0. In contrast, the closer the prediction is to 0, the greater the positive 
 resulting value will be as it is multiplied with -1.
--> MEANING: The more confidence in the prediction (given it is correct) the lower the 
+-> MEANING: The more confidence in the prediction (given it is correct) the lower the
 loss in comparison to the loss resulting from wrong predictions, with lower probability
 values.
 

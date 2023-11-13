@@ -25,7 +25,7 @@ This file contains the code for one executing neuron within the network.
 For this specific example, we are imagining a neuron, which has three fully-connected 
 neurons in the previous layer feeding into the current neuron.  
 
-Therefore, along the three inputs it receives from the previous neurons, it also 
+Therefore, along the three inputs it receives from the previous neurons, it also
 computes with three different weights for each input. Additionally, every unique
 neuron in a neural network has it's own unique bias, which is added to the 
 calculation of the output.

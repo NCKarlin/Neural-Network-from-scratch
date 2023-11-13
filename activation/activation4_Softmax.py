@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=omz_NdFgWyU&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius
 
 THEORY
 There is no additional theory in this script, compared to activation3-Softmax.py.
-The main difference is the implementation of numpy functions for basic arithmetic 
+The main difference is the implementation of numpy functions for basic arithmetic
 operations, which saves space, lines and also makes for better readbility.
 
 THIS SCRIPT

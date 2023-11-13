@@ -13,7 +13,7 @@ with any of the desired sizes/ number of neurones for each layer.
 Therefore, in this script the definition of the class Layer_Dense is performed, so that
 upon the creation with the right input parameters a suitable layer will be instantiated.
 The class is comprised of an __init__ method, which is performed when initializing such
-an object. Currently, this means that it randomly initiates the corresponding number of 
+an object. Currently, this means that it randomly initiates the corresponding number of
 weights and biases for the neurons in the respective layer. The other important function,
 which is defined in the class is the forward function, which will yield the corresponding
 outputs and assigns them to the output attribute of the class, so that they are easily

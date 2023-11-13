@@ -11,7 +11,7 @@ All of the code and comments are mainly based on the video tutorial series ["Neu
 I highly recommend this tutorial to anyone who has some basic knowledge about neural networks, but really wants to drill down into the specific mechanics to better understand how to optimise and work with neural networks.
 
 ## Run the script in this repo
-If one would like to run all the scripts within this repository, since it is mostly independent of third party libraries, not much has to happen. While one could easily run this from the base environment, I still do recommend to create a virtual environment just for clarity and good-practice.
+If one would like to run all the scripts within this repository, since it is mostly independent of third party libraries, not much has to happen. While one could easily run this from the base environment, I still do recommend to create a virtual environment for clarity and good-practice.
 ```
 python -m venv "given-venv-name"
 ```

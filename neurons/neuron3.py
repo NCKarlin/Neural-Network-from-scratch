@@ -13,7 +13,7 @@ This file contains essentially the same operation as performed in neuron2.py, wi
 difference, that instead of manually calculating the output, the dataformats are adjusted,
 so that the calculation can be performed within a nested for-loop.
 The first for-loop will loop over the neurons in our current layer receiving the inputs
-from the previous layer, while the second nested for-loop will then actually compute the 
+from the previous layer, while the second nested for-loop will then actually compute the
 individual product of the respective neurons weights with the inputs.
 '''
 

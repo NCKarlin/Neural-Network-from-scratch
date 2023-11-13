@@ -9,7 +9,7 @@ Although a lot of things are added here in this scrip the theoretical novelty is
 on the activation (function) of the neurons in the respective layer. Generally, 
 activation functions are mathematical equations, which dependant on the neuron output
 value, determines whether the neuron will be active (part of calculating the overall 
-output) or whether it will be inactive (=0). Together with the weights and biases and 
+output) or whether it will be inactive (=0). Together with the weights and biases and
 the corresponding activation pattern, the network will learn how to solve the problem at
 hand. 
 The most famous and widely spread activation function is the so-called Rectified Linear

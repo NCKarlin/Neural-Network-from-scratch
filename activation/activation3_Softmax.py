@@ -5,7 +5,7 @@ Video 6 in Playlist:
 https://www.youtube.com/watch?v=omz_NdFgWyU&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=6&ab_channel=sentdex
 
 THEORY
-In the last layer of neurons of the network, the subsequent activation layer/ function 
+In the last layer of neurons of the network, the subsequent activation layer/ function
 differs from the mostly used ReLU-activation function. The reason a different activation
 function is used, is because the network outputs from the last layer should give some 
 form of meaning for the next steps. This means, their negative values range should 

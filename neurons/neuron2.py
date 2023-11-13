@@ -20,7 +20,7 @@ In this example the layer we are looking at a neuron layer consistsing of 3 neur
 4 inputs each, from the four neurons in the previous layer. 
 As in neuron1.py the mechanics of the calculation stay the same, with the main 
 difference this time the output will not only be a single value but a list of 
-three values as each neuron computes an output itself within the layer. 
+three values as each neuron computes an output itself within the layer.
 '''
 
 # Inputs from the neurons of the previous layer

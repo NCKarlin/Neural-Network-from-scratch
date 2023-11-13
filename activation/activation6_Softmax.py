@@ -20,7 +20,7 @@ Therefore, in the class definition of Activation_Softmax the layer output values
 are fed into the activation function are shifted by the overall maximum value. This means
 that the biggest value resulting after the shift will be 0, while all other values are 
 negative. Exponentiating any negative value will give you a result within the range of
-0 to 1. Hence, by shifting all values to the negative range before exponentiating, 
+0 to 1. Hence, by shifting all values to the negative range before exponentiating,
 prevents the values from becoming too large for the machine memory for continued training.
 This step does not have any impact on the results of the normalization afterwards.
 

@@ -23,7 +23,7 @@ Therefore, we now add some "rows"/ lists to the inputs list, representing the in
 the neurons of the previous layer for a batch size of three samples. Leaving the output
 calculation as it was would lead to a shape error for the output calculation, because now
 both the inputs as well as the weights have the exact same shape: [(3, 4)].
-But since we want to multiply and add the results of the inputs of the batch with the 
+But since we want to multiply and add the results of the inputs of the batch with the
 respective weights, at least one of the inputs to the dot-product have to be transformed. 
 This means, that by transposing the weights (from row=neuron | column=weights for inputs
 of neuron -> row: weights for inputs of neuron | column=neuron), we will make sure, that
