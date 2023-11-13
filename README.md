@@ -1,6 +1,6 @@
 # Neural Network from scratch
 ![](https://github.com/NCKarlin/Neural-Network-from-scratch/blob/main/NN-from-scratch/files/Basic_NN_viz.gif)
-[Source: https://towardsdatascience.com/everything-you-need-to-know-about-neural-networks-and-backpropagation-machine-learning-made-easy-e5285bc2be3a]
+[Source: [TowardsDataScience](https://towardsdatascience.com/everything-you-need-to-know-about-neural-networks-and-backpropagation-machine-learning-made-easy-e5285bc2be3a)]
 
 ## Introduction
 This repository was instantiated to create a neural network (almost) from scratch and eliminating the use of third-party libraries to dig down deep into understanding the fundamental workings and tuning mechanics of a deep learning neural network. <br>
