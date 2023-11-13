@@ -26,11 +26,9 @@ Subseqeuntly, fter following these steps everyone should be able to run the scri
 In order to make this as pleasant and accessible as possible, I will shortly explain the ideal chronological order to walk through the repository, while explaining the organization that can be found here. The order of the scripts within the folders do follow numbering, as specific titles would have been too long and confusing. <br>
 To follow the order of the tutorial I would suggest to look into the folder and their respective scripts in the following order:
 1. **neurons:**<br>
-In this folder you will find all scripts that are concerned with the detailed operations of a single neuron (inputs, weights and biases), up until multiple neurons within a layer. <br>
-<br>
+In this folder you will find all scripts that are concerned with the detailed operations of a single neuron (inputs, weights and biases), up until multiple neurons within a layer.
 2. **batches:**<br>
 In this folder you will find the two scripts concerned with layers of neurons within a network. Firstly, just a batch of inputs for a single layer of multiple neurons and secondly the same detailed operation for a two-layered network with 3 neurons in each layer.
-<br>
 4. **layers:**<br>
 In this folder you will find the script that showcases the dynamic layer creation for a neural network with a self-defined layer class, which showcases the most important functions and attributes for a (generic) neural network layer of neurons. 
 5. **activation:**<br>
@@ -56,4 +54,4 @@ Subsequently, the code for the respective script, which can be run and usually p
 ## General Comments
 Although I had substantial knowledge about neural networks and their functioning, this detailed walk-through helped a lot in solidifying certain aspects but also in identifying new tweaks for better understanding the multitude of operations going on in a neural network. Especially, for tweaking and optimizing neural networks this can be useful, as when the base operations are understood the tweaking options become clear as well. <br>
 Furthermore, this repository was created mainly for myself, but I would be delighted if anyone else also finds this helpful. Although (most/ some of) the comments might be unnecessary or too much for clean-coders, I hereby warn people about the amount of commenting, that is part a habit from my side, as well ass a design choice, because I wanted to make this very accessible. <br>
-Therefore, I also do not expect anyone to contribute greatly, but if someone would like to, let me know, I'd love to figure out how it could possibly make this simple repository even better. Thank you!
+Therefore, I also do not expect anyone to contribute greatly, but if someone would like to, let me know, I'd love to figure out how it could possibly make this simple repository even better. *Thank you!*
