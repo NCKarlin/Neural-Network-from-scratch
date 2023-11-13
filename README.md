@@ -26,7 +26,7 @@ Subseqeuntly, fter following these steps everyone should be able to run the scri
 In order to make this as pleasant and accessible as possible, I will shortly explain the ideal chronological order to walk through the repository, while explaining the organization that can be found here. The order of the scripts within the folders do follow numbering, as specific titles would have been too long and confusing. <br>
 To follow the order of the tutorial I would suggest to look into the folder and their respective scripts in the following order:
 1. **neurons:**<br>
-In this folder you will find all scripts that are concerned with the detailed operations of a single neuron (inputs, weights and biases), up until multiple neurons within a layer. 
+In this folder you will find all scripts that are concerned with the detailed operations of a single neuron (inputs, weights and biases), up until multiple neurons within a layer. <br>
 2. **batches:**<br>
 In this folder you will find the two scripts concerned with layers of neurons within a network. Firstly, just a batch of inputs for a single layer of multiple neurons and secondly the same detailed operation for a two-layered network with 3 neurons in each layer.
 3. **layers:**<br>
