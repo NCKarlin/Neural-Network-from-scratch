@@ -1,7 +1,25 @@
 '''
+CLASS DEFINITION OF A LAYER IN NEURAL NETWORKS
+
 Video 4 in Playlist:
 https://www.youtube.com/watch?v=TEWy9vZcxW4&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=6&ab_channel=sentdex
 
+THEORY
+For this script there is not any new mathematical or network theory implemented. Rather,
+this script showcases some programming theory, namely how to best structure the layers
+in a neural network within a programming framework. Layer of a neural network can be 
+defined dynamically, so that the creation and instantiation of them can be performed 
+with any of the desired sizes/ number of neurones for each layer. 
+Therefore, in this script the definition of the class Layer_Dense is performed, so that
+upon the creation with the right input parameters a suitable layer will be instantiated.
+The class is comprised of an __init__ method, which is performed when initializing such
+an object. Currently, this means that it randomly initiates the corresponding number of 
+weights and biases for the neurons in the respective layer. The other important function,
+which is defined in the class is the forward function, which will yield the corresponding
+outputs and assigns them to the output attribute of the class, so that they are easily
+accessible via the dot-notation. 
+
+THIS SCRIPT
 This file contains the small piece of code, which essentially showcases the same 
 operation as in batches2.py, but this time iwth the difference of creating a class 
 for the layer objects, so they can be instantiated dynamically and passed through
@@ -16,7 +34,7 @@ respective layer.
 
 #! Output values will change due to random weights and biases initialization
 
-Below, the mechanics of the dot product performed here:
+The mechanics of the dot product performed here (rows -> input 1 | columns -> input2):
 
 INPUTS (3,4)        NEURONS (4,3)   OUTPUTS (3,3)
 

@@ -56,7 +56,7 @@ softmax_output = [0.7, 0.1, 0.2]
 # Exemplary one-hot-encoded target values
 target_output = [1, 0, 0]
 
-# Catgerocial Cross-Entropy loss calculation
+# Categorical Cross-Entropy loss calculation
 loss = -(math.log(softmax_output[0])*target_output[0]+ # 0.7 * 1
          math.log(softmax_output[1])*target_output[1]+ # 0.1 * 0 -> falls out
          math.log(softmax_output[2])*target_output[2]) # 0.2 * 0 -> falls out

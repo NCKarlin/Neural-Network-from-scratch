@@ -5,8 +5,23 @@ Video 5 in Playlist:
 https://www.youtube.com/watch?v=gmjzbpSVY1A&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=5&ab_channel=sentdex
 
 THEORY
+Although a lot of things are added here in this scrip the theoretical novelty is focused
+on the activation (function) of the neurons in the respective layer. Generally, 
+activation functions are mathematical equations, which dependant on the neuron output
+value, determines whether the neuron will be active (part of calculating the overall 
+output) or whether it will be inactive (=0). Together with the weights and biases and 
+the corresponding activation pattern, the network will learn how to solve the problem at
+hand. 
+The most famous and widely spread activation function is the so-called Rectified Linear
+Unit (ReLU) function. Bascially, it truncates all negative values to 0, whereas it 
+overtakes the corresponding positive value without any alteration. The reason it is so 
+popular is based on the easy and quick calculation of the function, while additionally
+when performed on neurons in several layers in series, dependant on the weights and
+biases of the respective neuron, the function gives the ability of learning value ranges,
+as when performed in series it will truncate the values in a manner so that non-linear 
+functions can be solved for certain value ranges.
 
-
+THIS SCRIPT
 This file contains a little more information to go through or to be explained.
 
 1. INTEGRATION OF A DATA CREATION FUNCTION

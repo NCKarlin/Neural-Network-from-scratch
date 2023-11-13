@@ -6,7 +6,8 @@ https://www.youtube.com/watch?v=txh3TQDwP1g&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius
 
 THEORY
 This is mainly just a visualisation script, which is supposed to help understand the 
-basic workings of derivatives on functions. 
+basic workings of derivatives on functions, as this is the main part of the optimization
+in a neural network during or more for the backpropagation. 
 Generally, in a neural networks the tweaking of the weights and biases on the neurons
 is an action of which one would like to know the impact onto the ultimate loss of the
 respective model value constellation. Therefore, the derivative is ideal to give 

@@ -1,7 +1,21 @@
 '''
+BATCHED MULTI-LAYER OUTPUT CALCULATION
+
 Video 4 in Playlist:
 https://www.youtube.com/watch?v=TEWy9vZcxW4&list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3&index=6&ab_channel=sentdex
 
+THEORY
+As we have mentioned before, neural networks, especially in deep learning often consist
+of several/ numerous layers of neurons, as with each layer of neurons the network 
+becomes deeper and deeper. Therefore, as a simple next step we are creating the outputs
+of a very simple model with batched input and also an additional layer of 3 neurons.
+Hence, we have two different weight matrices for the first and second layer. While the 
+first layer takes 4 input values per sample and then creates an output with 3 features,
+because the input is passed through 3 neurons in this layer, the second layer also only
+takes an input of 3 features, that result from the first layer. The final output then 
+represents the 3x3 matrix for 3 samples with 3 features. 
+
+THIS SCRIPT
 This file contains the small piece of code, which showcases the output calculation for 
 an input of a batch size with three samples, and two layers of neurons, processing the 
 input.
