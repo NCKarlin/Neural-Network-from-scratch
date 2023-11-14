@@ -22,7 +22,7 @@ pip install numpy #basic arithmetic operations
 pip install math #for math constants 
 pip install matplotlib #for visualisations
 ```
-Subseqeuntly, fter following these steps everyone should be able to run the scripts within this repository locally.
+Subseqeuntly, after following these steps everyone should be able to run the scripts within this repository locally, granted python is already installed in a version of 3.7 or higher, which should be taken into account when selecting the interpreter.
 
 ## Repository Organization
 In order to make this as pleasant and accessible as possible, I will shortly explain the ideal chronological order to walk through the repository, while explaining the organization that can be found here. The order of the scripts within the folders do follow numbering, as specific titles would have been too long and confusing. <br>
@@ -47,7 +47,7 @@ Short descriptive title of the respective script in ALL-CAPS
 2. **Video source from tutorial:**<br>
 Number of video in playlist and the link to it. 
 3. **THEORY:** <br>
-This is the section that is used to give theoretical context to the lines of code in the script, mostly it explains the mathematical operations and their implications, so that this theory could be generalized and transferred to other neural networks for other purposes. Disclaimer: some scripts have barely newly introduced theory, therefore the length of this section varies greatly.
+This is the section that is used to give theoretical context to the lines of code in the script, mostly it explains the mathematical operations and their implications, so that this theory could be generalized and transferred to other neural networks for other purposes. Disclaimer: some scripts have barely newly introduced theory, therefore the length of this section varies greatly throughout the scripts, as well as the THIS SCRIPT section.
 4. **THIS SCRIPT:** <br>
 This is a short section where the specifics for this script are explained. While the more general theory of it was elaborated on before, this section is more code-oriented and explains in detail what the operations of the specific script are. 
 5. **The Code:** <br>
@@ -55,5 +55,5 @@ Subsequently, the code for the respective script, which can be run and usually p
 
 ## General Comments
 Although I had substantial knowledge about neural networks and their functioning, this detailed walk-through helped a lot in solidifying certain aspects but also in identifying new tweaks for better understanding the multitude of operations going on in a neural network. Especially, for tweaking and optimizing neural networks this can be useful, as when the base operations are understood the tweaking options become clear as well. <br>
-Furthermore, this repository was created mainly for myself, but I would be delighted if anyone else also finds this helpful. Although (most/ some of) the comments might be unnecessary or too much for clean-coders, I hereby warn people about the amount of commenting, that is part a habit from my side, as well ass a design choice, because I wanted to make this very accessible. <br>
+Furthermore, this repository was created mainly for myself, but I would be delighted if anyone else also finds this helpful. Although (most/ some of) the comments might be unnecessary or too much for clean-coders, I hereby warn people about the amount of commenting, that is part a habit from my side, as well as a design choice, because I wanted to make this very accessible. <br>
 Therefore, I also do not expect anyone to contribute greatly, but if someone would like to, let me know, I'd love to figure out how it could possibly make this simple repository even better. *Thank you!*
